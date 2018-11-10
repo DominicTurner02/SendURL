@@ -14,7 +14,7 @@ namespace SendURL
         public AllowedCaller AllowedCaller => AllowedCaller.Both;
         public string Name => "SendURL";
         public string Help => "Sends a URL Prompt to User/s.";
-        public string Syntax => "<Player || *> <URL> <Description>";
+        public string Syntax => "[Player || *] [URL] <Description>";
         public List<string> Aliases => new List<string>() { "SURL" };
         public List<string> Permissions => new List<string>() { "sendurl" };
 
