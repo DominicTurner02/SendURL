@@ -46,7 +46,7 @@ namespace SendURL
             }
             else
             {
-                UnturnedPlayer Victim = null;
+                UnturnedPlayer Victim;
                 try
                 {
                     Victim = UnturnedPlayer.FromName(command[0]);
